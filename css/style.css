@@ -81,7 +81,7 @@ nav li a:hover {
   text-decoration: underline;
 }
 
-nav li a .join {
+nav li a.join {
   color: #f63232;
 }
 
@@ -116,7 +116,7 @@ article p::first-line {
 
 .images li {
   display: inline-block;
-  width: 40px;
+  width: 40%;
   margin: 20px 5%;
 }
 
@@ -126,7 +126,7 @@ article p::first-line {
 }
 
 .images li img {
-  max-width: 100px;
+  max-width: 100%;
 }
 
 section.join {
