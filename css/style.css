@@ -172,7 +172,7 @@ p::selection {
 /* responsive styles */
 
 @media screen and (max-width: 1400px) {
-  .banner {
+  .banner h2 {
     font-size: 60px;
   }
 
@@ -182,7 +182,7 @@ p::selection {
 }
 
 @media screen and (max-width: 960px) {
-  .banner {
+  .banner h2 {
     font-size: 40px;
   }
 }
@@ -198,8 +198,8 @@ p::selection {
     font-size: 25px;
   }
 
-  .banner .welcome span {
-    tab-size: 1em;
+  .banner h2 span {
+    font-size: 1em;
   }
 
   .banner .welcome br {
